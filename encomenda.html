@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criação de Produtos">
+
+    <title>Luh_Artesã</title>
+    <link rel="stylesheet" href="inde.css">
+    <link rel="stylesheet" href="encomenda.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@1,300&family=Lemonada:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Lemonada:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="menu-principal">
+        <section>
+            <!--cabeçalho 1-->
+            <div id="header-1">
+                <div id="logo">
+                    <a href="./index.html">
+                        <h1>Luh_Artesã</h1>
+                    </a>
+                </div>
+            </div>
+            <!--cabeçalho 2-->
+            <div id="redes-sociais">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/Luisela.Artesa/" target="_blank">
+                            <img src="./Fotos_LH/icons8-facebook-26.png" alt="icone-facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/luh.oficial.arts/" target="_blank">
+                            <img src="./Fotos_LH/icons8-instagram-26.png" alt="icone-insta">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </header>
+    <section id="main-menu" class="col-100-carossel">
+        <div id="header-2">
+            <nav id="menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./trabalhos.html">Trabalhos</a></li>
+                    <li><a href="./encomenda.html">Encomenda</a></li>
+
+                </ul>
+            </nav>
+            <div id="busca">
+                <input type="text" placeholder="Search" />
+            </div>
+
+        </div>
+    </section>
+    <section id="formulario">
+        <header>
+            <h1>Contacto</h1>
+        </header>
+
+        <form method="POST" action="mailto:edivaldoluisb16@gmail.com" id="fcontato">
+            <fieldset id="usuario">
+                <legend>Identificação do Usuário</legend>
+                <p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome"
+                        placeholder="Nome completo" /></p>
+                <p><label for="cNum">Telf:</label> <input type="num" name="tNum" id="cNum" min="6"
+                        placeholder="Número de telefone" /></p>
+
+                <fieldset id="sexo">
+                    <legend>Sexo</legend>
+                    <input type="radio" name="tSexo" id="cMasc" /> <label for="cMasc">Masculino</label> <br>
+                    <input type="radio" name="tSexo" id="cFem" /> <label for="cFem"> Feminino</label>
+                </fieldset>
+            </fieldset>
+
+            <fieldset id="endereço">
+                <legend>Endereço do Usuário</legend>
+                <p><label for="cDist">Distrito:</label> <select name="tDist" id="cDist">
+                        <optgroup label="São Tomé">
+                            <option value="" selected>Água-Grande</option>
+                            <option value="">Lembá</option>
+                            <option value="">Caué</option>
+                            <option value="">Mé-Zochi</option>
+                            <option value="">Lobata</option>
+                            <option value="">Cantagalo</option>
+                        </optgroup>
+
+                        <optgroup label="Princípe">
+                            <option value="">Pagué</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p><label for="cLocal">Localidade:</label> <input type="text" name="tLocal" id="cLocal"
+                        placeholder="Localidade" maxlength="50"></p>
+
+
+
+            </fieldset>
+
+            <fieldset id="mensagem">
+                <legend>Mensagem</legend>
+                <p><label for="cGrau">Grau de Urgência:</label>
+                    baixa<input type="range" name="tGrau" id="cGrau" min="0" max="10" step="5">alta
+                </p>
+                <p><label for="cSms">Mensagem:</label>
+                    <textarea name="tSms" id="cSms" cols="30" rows="2"
+                        placeholder="Caso queira deixe aqui sua mensagem"></textarea></p>
+
+            </fieldset>
+
+            <fieldset id="pedido">
+                <legend>Quero Encomendar</legend>
+                <p><input type="checkbox" name="tPed" id="cPed" checked>
+                    <label for="cPed">Gostaria de encomendar quando disponível</label></p>
+                <p><label for="cTrab">Trabalho:</label>
+                    <input type="text" name="tTrab" id="cTrab" placeholder="Que trabalho deseja?">
+                </p>
+                <p><label for="cDesc">Descrição:</label>
+                    <textarea name="tDesc" id="cDesc" cols="30" rows="3"
+                        placeholder="Descreva o trabalho que deseja"></textarea>
+                </p>
+
+                <p><label for="cQtd">Quantidade:</label>
+                    <input type="number" name="tQtd" id="cQtd" placeholder="Quantidade" min="0" max="30">
+                </p>
+
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </section>
+    <!--parcerias-->
+    <section id="parcerias">
+
+        <h2>Parcerias</h2>
+
+        <a href="https://www.instagram.com/bellabikinis_crochet/" target="_blank"><img
+                src="./Fotos_LH/Trabalhos/belabikines.jpg" alt=""></a>
+
+        <a href="https://www.instagram.com/zuntatv/" target="_blank"><img src="./Fotos_LH/Trabalhos/zuntatv.jpg"
+                alt=""></a>
+        <a href="https://www.instagram.com/tecponte_digital_stp/" target="_blank"><img
+                src="./Fotos_LH/Trabalhos/tecponte.jpg" alt=""></a>
+
+    </section>
+    <section id="contato">
+        <h3>
+            Contacte
+        </h3>
+        <p>
+            Telf: (+239)9017073,
+            E-mail: luiselacacheada8@gmail.com, <a href="https://www.instagram.com/luh.oficial.arts/">instagram</a>, <a
+                href="https://www.facebook.com/Luisela.Artesa/">facebook</a>
+        </p>
+
+    </section>
+
+
+
+    <!--rodape-->
+    <footer id="rodape">
+
+        <p>
+            Copyright &copy; 2020 - by Luisela Nazaré <br>
+            <a href="https://www.facebook.com/Luisela.Artesa/" target="_blank"><img
+                    src="./Fotos_LH/icons8-facebook-26.png" alt=""></a> | <a
+                href="https://www.instagram.com/luh.oficial.arts/" target="_blank"><img
+                    src="./Fotos_LH/icons8-instagram-26.png" alt=""></a>
+        </p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+body{
+width: 100%;
+height: 100%;
+margin: 0px auto;
+}
+ul{
+    padding: 0px!important;
+}
+
+header#menu-principal{
+background-color: rgb(22, 22, 22);
+height: 60px;
+width: 100%;
+
+}
+
+section{
+margin: 0 auto;
+width: 980px;
+position: relative;
+
+}
+section#main-menu{
+    width: 100%;
+    
+    position: relative;
+    border-bottom: 2px solid grey;
+    height: 80px;
+}
+
+div#logo{
+color: rgba(0, 238, 255, 0.767);
+font-family: 'Lemonada', cursive;
+font-size: 10px;
+padding: 5px ;
+width: 70%;
+float: left;
+}
+div#logo a{
+    text-decoration: none;
+}
+
+div#redes-sociais ul li{
+margin-left: 15px;
+display: inline-block;
+float: left;
+list-style: none;
+    
+}
+div#redes-sociais {
+width: 25%;
+float: right;
+margin-top: 15px;
+
+ 
+}
+
+div#header-2{
+background-color: white;
+width: 980px;
+margin: 0 auto;
+padding: 10px;
+
+}
+nav#menu{
+    width: 70%;
+    float: left;
+}
+nav#menu ul {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+nav#menu ul li{
+display: inline-block;
+color: #8b8b8b;
+margin-left: 10px;
+
+}
+nav#menu ul li :hover{
+    color: rgb(231, 178, 108);
+    border-bottom: 2px solid rgb(38, 157, 226);
+    transition: 2.s;
+}
+
+
+nav#menu ul li a{
+text-decoration: none;
+font-size: 18px;
+text-transform: uppercase;
+color: black;
+
+}
+div#busca{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+div#busca input{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid orange;
+
+}
+div#slidecarossel{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+div.col-100-carossel.content{
+    
+    
+
+}
+div.col-header-zonatxt{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 10px;
+
+
+}
+
+div.content{
+    text-align: center;
+    margin-top: 20px;
+}
+h1#inovacao{
+    text-transform: uppercase;
+}
+div.col-100-carossel.zonatxt-img{
+    background-color: #eeeeee;
+}
+div.txt-img img{
+    width: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    border-color: white;
+    
+}
+div.txt-img.p{
+    text-align: justify;
+    
+
+}
+div.txt-img{
+    margin-top: 40px;
+    float: left;
+    width: 29%;
+    margin-left: 20px;
+    
+    padding: 5px;
+}
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+    background-color: rgb(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 5px;
+}
+footer#rodape p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}

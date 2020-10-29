@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+
+
+section#album{
+position: relative;
+padding-bottom: 20px;
+}
+ 
+ul#albumfotos li{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    
+    
+}
+
+
+ul#albumfotos {
+text-align: center;
+width: 1000px;
+overflow: hidden;
+list-style: none;
+}
+
+ul#albumfotos li {
+float: left;
+width: 200px;
+height: 200px;
+margin: 10px;
+border: 2px solid black;
+box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+-webkit-transition: all 0.5 ease-in;
+
+}
+ul#albumfotos li span{
+opacity: 0;
+color: white;
+text-shadow: 1px 1px 1px black;
+background-color: rgba(0, 0, 0, 0.3);
+font-size: 9pt;
+line-height: 370px;
+padding: 5px;
+}
+
+ul#albumfotos li:hover{
+-webkit-transform: scale(1.5);
+}
+
+ul#albumfotos li:hover span{
+    opacity: 1;
+}
+
+/*fotos*/
+
+ul#albumfotos li#foto1{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(1\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto2{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(2\).jpg")no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto3{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(3\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto3:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto4{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(4\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto4:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto5{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(5\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto5:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto6{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(6\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto6:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto7{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(7\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto7:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto8{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(8\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto8:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto9{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(9\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto9:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto10{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(10\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto10:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto11{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(11\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto11:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto12{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(12\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto12:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto13{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(13\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto13:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto14{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(14\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto14:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto15{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(15\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto15:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto16{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(16\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto16:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto17{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(17\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto17:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto18{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(18\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto18:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto19{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(19\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto19:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto20{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(20\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto20:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto21{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(21\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto21:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto22{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(22\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto22:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto23{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(23\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto23:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto24{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(24\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto24:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto25{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(25\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto25:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto26{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(26\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto26:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto27{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(27\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto27:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto28{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(28\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto28:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto29{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(29\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto29:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albumfotos li#foto30{
+    background: url("./Fotos_LH/Trabalhos/foto\ trabalho\ \(30\).jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albumfotos li#foto30:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+/* video*/
+section#videos-section{
+    width: 1000px;
+}
+
+section#videos-section div{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.video-load video{
+    width: 200px;
+   
+    
+}
+
+
+
+
+
+
+
+/*parecerias*/
+
+section#parcerias{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    margin-top: 30px;
+    padding: 10px;
+}
+
+section#parcerias img{
+    display: inline-flex;
+    border-radius: 80px;
+    align-content: center;
+    padding: 5px;
+}
+
+section#parcerias img:hover{
+    border: 2px solid rgb(65, 105, 105);
+    transition: ss;
+}
